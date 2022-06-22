@@ -1,0 +1,103 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Century Gothic;
+}
+body {
+background-color: black;
+}
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(mecow\ club.jpeg);
+background-size: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+ul {
+float: right;
+list-style-type: none;
+margin-top: 50px;
+margin-right: -100px;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color: white;
+padding: 15px 20px;
+border: 1px solid white;
+transition: 0.6s ease;
+}
+ul li a:hover{
+background-color: white;
+color: black;
+}
+.logo img {
+float: left;
+width: 250px;
+height: 250px;
+padding: 15px 20px;
+border: 3px solid white;
+margin-left: -100px;
+}
+    
+.main{
+max-width: 1200px;
+margin: auto;
+}
+
+.clubs ul li h1{
+color: yellow;
+padding: 8px 12px;
+border-radius: 100%;
+border: 3px solid white;
+}
+.heading h1 a{
+color: yellow;
+padding: 15px 20px;
+border-radius : 30%;
+border: 3px solid white;
+cursor: pointer;
+}
+.heading h1 a:hover{
+background-color: white;
+color: black;
+}
+.heading h2{
+color: yellow;
+padding: 50px 50px;
+}
+.heading h3{
+color: yellow;
+}
+.heading p{
+font-size: 20px;
+color: white;
+padding: 50px 15px;
+}
+.heading p2{
+font-size: 20px;
+color: white;
+padding: 50px 15px;
+}
+.end h1{
+font-size: 50px;
+color: yellow;
+padding: 50px 15px;
+border: 3px solid powderblue;
+}
+
+.container{
+position: relative;
+}
+
+.text-block{
+position: absolute;
+bottom: 20px;
+right: 20px;
+background-color: yellow;
+color: yellow;
+padding-left: 20px;
+padding-right: 20px;
+}

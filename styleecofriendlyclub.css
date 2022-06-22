@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family:sans-serif;
+
+  }
+* {
+    box-sizing: border-box;
+  }
+  
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .registernote {
+    text-align: center;
+    background-color: lightgreen;
+  }
+.bg-image {
+    /* The image used */
+    background-image: url("ecofriendlybg.jpg");
+    overflow: hidden;
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    
+    /* Full height */
+    height: 60%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight:200;
+    font-size: 40px;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 30px;
+    text-align: center;
+  }
+.caption {
+    font-style: italic;
+}
+.obj {
+    color: green;
+}
+.heading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: green;
+}
+.introductiontohappyclub {
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.container {
+    position: relative;
+    width:1500px;
+    display: flex;
+    justify-content: space-between;
+    background-color:green;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .card {
+    position: relative;
+    max-width: auto;
+    background:lightyellow;
+    margin : 10px;
+    padding: 15px;
+    display: flex;
+
+}
+.container .card .imgbox {
+    max-width: 210px;
+    flex: 0 0 510px
+}
+
+.container .card .imgbox img {
+   max-width: 100%;
+}
+
+.container .card .content {
+    margin-left: 20px;
+}
+.social {
+  text-align: center;
+}
+.faculty {
+  text-align: center;
+  font-size: 20px;
+  background-color: lightgoldenrodyellow;
+}

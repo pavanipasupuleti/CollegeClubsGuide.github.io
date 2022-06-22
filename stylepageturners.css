@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #61122f;
+  }
+header{
+    margin-top: 10px;
+   margin-bottom: 1rem;
+   padding-bottom: 3rem;
+   margin-left: 60px;
+   margin-right: 60px;
+   border-bottom: 1px solid rgba(0,0,0,0.8);
+
+  }
+  header img{
+   width: 100%;
+  }
+  .svecwheading {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+  }
+   
+  .para1,.para2,.para3{
+      font-size: 150%;
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-bottom: 50px;
+  }
+  .para3{
+      padding-top: 50px;
+  }
+  .para4{
+    font-size: 150%;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 1010px;
+    padding-top: 50px; 
+    left: 100px;
+  }
+  .h1{
+      padding-top: 50px;
+
+  }
+  a{
+      padding-bottom: 100px;
+      padding-top: 100px;
+  }
+  .button { 
+    background-color:rgb(25, 189, 47);
+    border-radius: 10px;
+    position:absolute;
+    top: 560px;
+    left: 1200px;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .h3{
+    font-size: 150%;
+    left: 100px;
+    right: 200px;
+  }
+  .fa {
+    padding: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .fa:hover {
+      opacity: 10;
+  }
+  .fa-instagram {
+    background:rgb(15, 110, 199);
+    color: white;
+    
+  }
+  .fa-youtube {
+    background:red;
+    color: white;
+  }
+  .social{
+      padding-bottom: 100px;
+  }
